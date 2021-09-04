@@ -2,22 +2,21 @@
 <html lang="en">
 <head>
     <title>The Boston College FactBook</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <script defer src="js/main.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
     <link href="https://fonts.googleapis.com/css?family=Abril+Fatface|Open+Sans|Sigmar+One&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
+    <script src="js/main.js" defer></script>
 </head>
 
 <body>
     <div class='container'>
-        <section id ='about'>
+        <section>
             <h1 class="animate__animated animate__bounce">The Boston College FactBook</h1>
             <div class="row">
                 <div class="col-6">
-                    <button id="generate">Click me</button>
+                    <button id="generate">Get a random fact about Boston College</button>
+                    <div id="content">
+                    </div>
                 </div>
                 <div class="col-6">
                     <img src='bcpic1.JPG' width="80%">
@@ -26,135 +25,6 @@
             </div>
         </section>
 
-         <!-- <section id ='projects'>
-             <h1 class='title'>Projects</h1>
-             <div>
-                <div class="row">
-                    <div class="col-6">
-                        <div class="project-title">
-                            <a href="ECON2203.html"><strong>Potential Strategies for Authorities After Price of Rice Noodle Increase in Guizhou</strong></a>
-                        </div>
-                        <div class="project-authors">
-                            Jinghong He, Yuanhong Dai<br>
-                        </div>
-                        <div class="project-source">
-                            <em>Microeconomics Theory-Honors, 2019 Fall</em>
-                        </div>
-                        <div class="project-tags">
-                            <span class="tag course">Course</span>
-                            <span class="tag economics">Economics</span>
-                        </div>
-                        <div class="project-materials">
-                            <span><a href="assets/ECON2203/paper.pdf" target="_blank"><i class="far fa-file-alt"></i> Paper</a></span>
-                            <span><a href="assets/ECON2203/presentation.pdf" target="_blank"><i class="fas fa-desktop"></i> Presentation</a></span>
-                        </div>
-                    </div> 
-                    <div class="col-6">
-                        <img src="assets/ECON2203/teaser.png" width="100%">
-                    </div>
-                </div>
-
-                <div class="row">
-                    <div class="col-6">
-                        <div class="project-title">
-                            <a href="ECON1151.html"><strong>How do Physical Look Impact Wages?</strong></a>
-                        </div>
-                        <div class="project-authors">
-                            Jinghong He, Yuanhong Dai, Chen Qi<br>
-                        </div>
-                        <div class="project-source">
-                            <em>Statistics, 2019 Fall</em>
-                        </div>
-                        <div class="project-tags">
-                            <span class="tag course">Course</span>
-                            <span class="tag economics">Economics</span>
-                        </div>
-                        <div class="project-materials">
-                            <span><a href="assets/ECON1151/paper.pdf" target="_blank"><i class="far fa-file-alt"></i> Paper</a></span>
-                        </div>
-                    </div> 
-                    <div class="col-6">
-                        <img src="assets/ECON1151/teaser.png" width="100%">
-                    </div>
-                </div>
-
-                <div class="row">
-                    <div class="col-6">
-                        <div class="project-title">
-                            <a href="PWC.html"><strong>Case Competition: Smart Home Appliances Market</strong></a>
-                        </div>
-                        <div class="project-authors">
-                            Jinghong He, Zijian Zhang, Yuanhong Dai, Chen Qi, Zhendong Chen<br>
-                        </div>
-                        <div class="project-source">
-                            <em>PwC Case Competition at Boston College, Oct 2019</em>
-                        </div>
-                        <div class="project-tags">
-                            <span class="tag case">Case</span>
-                            <span class="tag presentation">Presentation</span>
-                        </div>
-                        <div class="project-materials">
-                            <span><a href="assets/PWC/presentation.pdf" target="_blank"><i class="fas fa-desktop"></i> Presentation</a></span>
-                        </div>
-                    </div> 
-                    <div class="col-6">
-                        <img src="assets/PWC/teaser.png" width="100%">
-                    </div>
-                </div>
-                
-                <div class="row">
-                    <div class="col-6">
-                        <div class="project-title">
-                            <a href="ARTH&EESC.html"><strong>Living on Water: A Comparision Study</strong></a>
-                        </div>
-                        <div class="project-authors">
-                            Jinghong He<br>
-                        </div>
-                        <div class="project-source">
-                            <em>Living on Water: Venetian Art/Architecture and Coasts, 2018 Fall</em>
-                        </div>
-                        <div class="project-tags">
-                            <span class="tag course">Course</span>
-                            <span class="tag science">Science</span>
-                        </div>
-                        <div class="project-materials">
-                            <span><a href="assets/ARTH&EESC/ARTH-paper.pdf" target="_blank"><i class="far fa-file-alt"></i> Paper</a></span> 
-                            <span><a href="assets/ARTH&EESC/EESC-paper.pdf" target="_blank"><i class="far fa-file-alt"></i> Research</a></span> 
-                            <span><a href="assets/ARTH&EESC/presentation.pdf" target="_blank"><i class="fas fa-desktop"></i> Presentation</a></span> 
-                            <span><a href="https://www.bc.edu/bc-web/bcnews/campus-community/faculty/water-born.html" target="_blank"><i class="far fa-newspaper"></i> News</a></span>
-                        </div>
-                    </div> 
-                    <div class="col-6">
-                        <img src="assets/ARTH&EESC/teaser.png" width="100%">
-                    </div>
-                </div>
-
-                <div class="row">
-                    <div class="col-6">
-                        <div class="project-title">
-                            <a href="BJ80.html"><strong>Coming of Age Ceremony at Beijing No.80 High School</strong></a>
-                        </div>
-                        <div class="project-authors">
-                            Jinghong He, Kaiming Chen, Cong Lu, Tiange Hou, and etc.<br>
-                        </div>
-                        <div class="project-source">
-                            <em>March 2018</em>
-                        </div>
-                        <div class="project-tags">
-                            <span class="tag case">Case</span>
-                        </div>
-                        <div class="project-materials">
-                            <span><a href="assets/BJ80/card.pdf" target="_blank"><i class="far fa-file-alt"></i> Invitation Cards</a></span> 
-                            <span><a href="assets/BJ80/Slides.pdf" target="_blank"><i class="fas fa-desktop"></i> Slides</a></span> 
-                            <span><a href="https://www.bilibili.com/video/av20244831" target="_blank"><i class="fas fa-video"></i> Video</a></span> 
-                        </div>
-                    </div> 
-                    <div class="col-6">
-                        <img src="assets/BJ80/teaser.jpg" width="100%">
-                    </div>
-                </div> -->
-
-        </section>
         <footer>Copyright © 2021 Jinghong He</footer>
     </div>
 

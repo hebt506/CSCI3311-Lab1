@@ -27,6 +27,7 @@ let facts = [
 	"Boston College is the most popular college on Instagram. BC’s Gasson Hall, is the third most Instagrammed college building in the country."
 ];
 
+
 document.querySelector("#generate").onclick = function(){
 	let randomFact = facts[Math.floor(Math.random()*facts.length)];
 
@@ -43,6 +44,6 @@ document.querySelector("#generate").onclick = function(){
 	// ADD PARAGRAPH TO DIV-CONTAINER WITH ID "content"
 	let element = document.querySelector("#content");
 	element.appendChild(paragraph);
-
+	
 	this.blur(); // lose focus
 }
