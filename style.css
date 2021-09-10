@@ -10,6 +10,7 @@ body {
     box-sizing: border-box;
 }
 
+
 footer{
     width: 100%;
     text-align: center;
@@ -21,7 +22,7 @@ footer{
     flex-wrap: wrap;
 }
 
-#about .col-6:nth-child(1){
+.col-6:nth-child(1){
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -45,4 +46,29 @@ footer{
 
 h1 {
     text-align: center;
+}
+
+#generate {
+    background-color: #555555;
+    border: none;
+    color: white;
+    width: 80%;
+    height: 40px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    transition-duration: 0.4s;
+}
+
+/* #generate:hover {
+
+} */
+
+#content p {
+    background-color: #cbd4cd;
+    width: 320px;
+    padding: 10px;
+    border: 2px solid gray;
+    margin: 8px;
 }
